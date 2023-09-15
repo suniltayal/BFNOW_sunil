@@ -1,0 +1,13 @@
+.form-section{
+    text-align: center;
+    margin: auto;
+}
+
+.form-section form{
+    display: flex;
+}
+
+div.form-field{
+    margin:5px;
+    padding:5px;
+}

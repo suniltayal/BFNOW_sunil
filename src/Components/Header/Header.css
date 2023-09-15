@@ -1,0 +1,10 @@
+.topIcon{
+    border:1px solid red;
+}
+.logo-section{
+    display: flex;
+}
+.logo-section h6{
+    line-height: 1.6;
+    padding-left: 10px;
+}

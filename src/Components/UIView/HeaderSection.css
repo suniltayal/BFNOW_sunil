@@ -1,0 +1,52 @@
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-content {
+    text-align: center;
+}
+
+.header-section-light .svg-icon, .svg-icon{
+    fill:white;
+}
+
+.header-section-dark .svg-icon{
+    fill:blue;
+}
+
+/* HeaderSection.css */
+:root {
+    --background-light: #ffffff; /* Light theme background color */
+    --background-dark: #121212;   /* Dark theme background color */
+    --text-color-light: #000000; /* Light theme text color */
+    --text-color-dark: #ffffff;   /* Dark theme text color */
+    --svg-fill-light: #007bff;   /* Light theme SVG fill color */
+    --svg-fill-dark: #8d6c9f;    /* Dark theme SVG fill color */
+  }
+  
+  /* HeaderSection styling */
+  .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-light); /* Set the initial background color */
+    color: var(--text-color-light);             /* Set the initial text color */
+  }
+  
+  /* Apply different fill colors for SVG based on theme */
+  .svg-icon {
+    fill: var(--svg-fill-light); /* Set the initial SVG fill color */
+  }
+  
+  /* Apply additional styles for dark theme */
+  div.header-section-dark {
+    background-color: blue;
+    color: var(--text-color-dark);
+  }
+  
+  /* Apply different fill colors for SVG in dark theme */
+  .header-section-dark .svg-icon {
+    fill: var(--svg-fill-dark);
+  }
+  

@@ -1,0 +1,24 @@
+ .icon-section {
+    padding: 40px 0px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .icon-section .icon-paper{
+    background: none;
+    box-shadow: none;
+  }
+  .icon-section .icon-button {
+    font-size: 4rem;
+    transform: scale(1);
+    transition: transform 0.5s;
+    border: 1px solid #2e7d32;
+    padding: 40px; 
+    cursor: pointer;
+  }
+  .icon-section .icon-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }

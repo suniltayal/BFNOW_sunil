@@ -1,0 +1,12 @@
+@media (min-width: 600px){
+div.css-cpgvjg-MuiSnackbar-root {
+    right:0;
+    left:0;
+    bottom: 0;
+    border-radius: 0;
+}
+div.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root{
+    width:100%;
+    border-radius: 0;
+}
+}

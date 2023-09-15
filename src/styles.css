@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('./assets/images/images.png') repeat;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* UIView styles */
+.UIView {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-height: 550px;
+    background-color: #f0f0f0;
+    max-width: 1440px; 
+    width: 100%;
+    border: 0px solid red;
+    margin: 0 auto;
+    overflow: auto; 
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); 
+}
+
+/* Footer styles */
+footer {
+    width: 100%;
+    background-color: #1976d2;
+    color: white;
+    text-align: center;
+    /* padding: 0px 10px; */
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
